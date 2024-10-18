@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006d46;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 1000px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login, .signup {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.signup {
+    background-color: white;
+    color: #006d46;
+}
+
+.login:hover, .signup-btn:hover {
+    opacity: 0.8;
+}
+
+.formulario{
+    background: url('./rescursos/fondo_contacto.jpeg') no-repeat center center/cover
+}
+
+.formulario input{
+    margin-top: 10px;
+}
+.rellenar{
+    margin-left: 38%;
+    margin-bottom: 2%;
+
+}
+
+.formulario textarea{
+    margin-left: 39%; 
+    width: 300px;
+    height: 90px; 
+    margin-bottom: 2%;
+}
+
+.formulario button{
+    
+    background-color: black;
+    color: white;
+    width: 270px;
+    height: 60px;
+    margin-left: 40%; 
+    margin-bottom: 3%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./rescursos/footer.png');
+    background-size: cover;
+    padding: 20px;
+    border-top: 3px solid #ccc;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.social a {
+    margin: 0 10px;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
