@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Compra</title>
+    <link rel="stylesheet" href="formularioCompra.css">
+</head>
+<body>
+    <h1>Formulario de Compra</h1>
+    <form>
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="producto">Productos:</label>
+        <select id="producto" name="producto">
+            <option value="producto1">Producto1</option>
+            <option value="producto2">Producto2</option>
+            </select><br>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" min="1" required><br>
+        <select id="tarjetas" name="tarjetas">
+            <option value="tarjeta1">tarjeta1</option>
+            </select><br>
+            <a href="./metodoPago.html"><input type="button" value="Añadir Trajeta"></a>
+        
+        <input type="submit" value="Enviar Pedido">
+    </form>
+</body>
+</html>
