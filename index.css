@@ -85,10 +85,13 @@ h1, h2, p {
     text-align: center;
     font-family: 'Qwitche Grypen';
     font-size: 64px;
+    text-decoration: underline;
+    border: 1rem solid white;
+
 }
 
 .colaboraciones{
-    background-color: #D9D9D9;
+    background-color: #157759;
 }
 
 .colaboraciones img{
